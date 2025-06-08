@@ -1,0 +1,24 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jlr</groupId>
+  <artifactId>jlr-automation</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency><groupId>org.seleniumhq.selenium</groupId><artifactId>selenium-java</artifactId><version>4.20.0</version></dependency>
+    <dependency><groupId>org.testng</groupId><artifactId>testng</artifactId><version>7.10.2</version><scope>test</scope></dependency>
+    <dependency><groupId>io.cucumber</groupId><artifactId>cucumber-java</artifactId><version>7.15.0</version></dependency>
+    <dependency><groupId>io.cucumber</groupId><artifactId>cucumber-testng</artifactId><version>7.15.0</version></dependency>
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>4.1.7</version>
+</dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-surefire-plugin</artifactId><version>3.0.0</version>
+        <configuration><suiteXmlFiles><suiteXmlFile>testng.xml</suiteXmlFile></suiteXmlFiles></configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

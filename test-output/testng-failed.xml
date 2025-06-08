@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JLR_Test_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HomepageTests(failed)">
+    <classes>
+      <class name="runners.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="afterAll"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4"/>
+          <include name="tearDownClass"/>
+          <include name="beforeAll"/>
+        </methods>
+      </class> <!-- runners.TestRunner -->
+    </classes>
+  </test> <!-- HomepageTests(failed) -->
+</suite> <!-- Failed suite [JLR_Test_Suite] -->
