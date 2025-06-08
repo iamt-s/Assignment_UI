@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 5 failed,   </span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,22 +103,7 @@
                     <div class="method-list-content failed suite-JLR_Test_Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-JLR_Test_Suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Header nav links should load&quot;, &quot;jaguar Land Rover HomePage&quot;)">runScenario("Header nav links should load", "jaguar Land Rover HomePage")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-JLR_Test_Suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Logo should be visible&quot;, &quot;jaguar Land Rover HomePage&quot;)">runScenario("Logo should be visible", "jaguar Land Rover HomePage")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-JLR_Test_Suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify homePage title&quot;, &quot;jaguar Land Rover HomePage&quot;)">runScenario("Verify homePage title", "jaguar Land Rover HomePage")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-JLR_Test_Suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Footer links should load&quot;, &quot;jaguar Land Rover HomePage&quot;)">runScenario("Footer links should load", "jaguar Land Rover HomePage")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -127,6 +112,30 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-JLR_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-JLR_Test_Suite" class="hide-methods passed suite-JLR_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-JLR_Test_Suite -->
+                      <a href="#" panel-name="suite-JLR_Test_Suite" class="show-methods passed suite-JLR_Test_Suite"> (show)</a> <!-- show-methods passed suite-JLR_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-JLR_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JLR_Test_Suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Footer links should load&quot;, &quot;jaguar Land Rover HomePage&quot;)">runScenario("Footer links should load", "jaguar Land Rover HomePage")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JLR_Test_Suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify homePage title&quot;, &quot;jaguar Land Rover HomePage&quot;)">runScenario("Verify homePage title", "jaguar Land Rover HomePage")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JLR_Test_Suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Header nav links should load&quot;, &quot;jaguar Land Rover HomePage&quot;)">runScenario("Header nav links should load", "jaguar Land Rover HomePage")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-JLR_Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -144,21 +153,6 @@
               <span class="class-name">runners.TestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Header nav links should load&quot;, &quot;jaguar Land Rover HomePage&quot;)">
-                  </a> <!-- runScenario("Header nav links should load", "jaguar Land Rover HomePage") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Header nav links should load","jaguar Land Rover HomePage")</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;pages.HomePage.navCount()&quot; because &quot;this.home&quot; is null
-	at stepDefinitions.HomePageSteps.navLinks(HomePageSteps.java:34)
-	at ✽.header navigation links count is greater than 0(file:///C:/Users/USER/Documents/JLR_UI_Assignment/src/test/resources/features/homePage.feature:11)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="runScenario(&quot;Logo should be visible&quot;, &quot;jaguar Land Rover HomePage&quot;)">
@@ -191,42 +185,20 @@ public void logo_is_displayed() {
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify homePage title&quot;, &quot;jaguar Land Rover HomePage&quot;)">
-                  </a> <!-- runScenario("Verify homePage title", "jaguar Land Rover HomePage") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify homePage title","jaguar Land Rover HomePage")</span>
-                  <div class="stack-trace">java.lang.AssertionError: Expected: Jaguar Land Rover, but got: JLR Corporate Website expected [true] but found [false]
-	at stepDefinitions.HomePageSteps.verifyTitle(HomePageSteps.java:24)
-	at ✽.page title should contain &quot;Jaguar Land Rover&quot;(file:///C:/Users/USER/Documents/JLR_UI_Assignment/src/test/resources/features/homePage.feature:5)
-... Removed 3 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Footer links should load&quot;, &quot;jaguar Land Rover HomePage&quot;)">
-                  </a> <!-- runScenario("Footer links should load", "jaguar Land Rover HomePage") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Footer links should load","jaguar Land Rover HomePage")</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;pages.HomePage.footerCount()&quot; because &quot;this.home&quot; is null
-	at stepDefinitions.HomePageSteps.footerLinks(HomePageSteps.java:44)
-	at ✽.footer links count is greater than 0(file:///C:/Users/USER/Documents/JLR_UI_Assignment/src/test/resources/features/homePage.feature:17)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="runScenario(&quot;Hero banner should be visible&quot;, &quot;jaguar Land Rover HomePage&quot;)">
                   </a> <!-- runScenario("Hero banner should be visible", "jaguar Land Rover HomePage") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Hero banner should be visible","jaguar Land Rover HomePage")</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;pages.HomePage.isBannerVisible()&quot; because &quot;this.home&quot; is null
-	at stepDefinitions.HomePageSteps.bannerVisible(HomePageSteps.java:39)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .carousel-item img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60763}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60763/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a232072ec602e9ab29b91973ba42b0d9
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.HomePage.isBannerVisible(HomePage.java:30)
+	at stepDefinitions.HomePageSteps.bannerVisible(HomePageSteps.java:48)
 	at ✽.hero banner is displayed(file:///C:/Users/USER/Documents/JLR_UI_Assignment/src/test/resources/features/homePage.feature:14)
 
 </div> <!-- stack-trace -->
@@ -236,6 +208,44 @@ public void logo_is_displayed() {
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-JLR_Test_Suite-class-failed -->
+          <div class="suite-JLR_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runners.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Footer links should load&quot;, &quot;jaguar Land Rover HomePage&quot;)">
+                  </a> <!-- runScenario("Footer links should load", "jaguar Land Rover HomePage") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Footer links should load","jaguar Land Rover HomePage")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify homePage title&quot;, &quot;jaguar Land Rover HomePage&quot;)">
+                  </a> <!-- runScenario("Verify homePage title", "jaguar Land Rover HomePage") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify homePage title","jaguar Land Rover HomePage")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Header nav links should load&quot;, &quot;jaguar Land Rover HomePage&quot;)">
+                  </a> <!-- runScenario("Header nav links should load", "jaguar Land Rover HomePage") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Header nav links should load","jaguar Land Rover HomePage")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JLR_Test_Suite-class-passed -->
         </div> <!-- panel JLR_Test_Suite -->
         <div panel-name="test-xml-JLR_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -300,28 +310,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runners.TestRunner')
-data.setCell(0, 3, 10853);
+data.setCell(0, 3, 13193);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'runners.TestRunner')
-data.setCell(1, 3, 100);
+data.setCell(1, 3, 10155);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'runners.TestRunner')
-data.setCell(2, 3, 17);
+data.setCell(2, 3, 95);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'runners.TestRunner')
-data.setCell(3, 3, 16);
+data.setCell(3, 3, 60);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'runners.TestRunner')
-data.setCell(4, 3, 15);
+data.setCell(4, 3, 33);
 window.suiteTableData['JLR_Test_Suite']= { tableData: data, tableDiv: 'times-div-JLR_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-JLR_Test_Suite">
               </div> <!-- times-div-JLR_Test_Suite -->
             </div> <!-- times-div -->
@@ -349,50 +359,44 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">runners.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@18ac53e8)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@7808f638)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeAll</span>
-                <span class="method-start">425 ms</span>
+                <span class="method-start">659 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("Verify homePage title", "jaguar Land Rover HomePage")</span>
-                <span class="method-start">438 ms</span>
+                <span class="method-start">674 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Logo should be visible", "jaguar Land Rover HomePage")</span>
-                <span class="method-start">11312 ms</span>
+                <span class="method-start">13871 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("Header nav links should load", "jaguar Land Rover HomePage")</span>
-                <span class="method-start">11421 ms</span>
+                <span class="method-start">13974 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Hero banner should be visible", "jaguar Land Rover HomePage")</span>
-                <span class="method-start">11444 ms</span>
+                <span class="method-start">14037 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("Footer links should load", "jaguar Land Rover HomePage")</span>
-                <span class="method-start">11468 ms</span>
+                <span class="method-start">24199 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterAll</span>
-                <span class="method-start">11484 ms</span>
+                <span class="method-start">24232 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">11484 ms</span>
+                <span class="method-start">24241 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

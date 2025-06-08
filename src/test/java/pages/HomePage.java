@@ -3,6 +3,10 @@ package pages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 import java.util.List;
 
 public class HomePage {
@@ -21,7 +25,10 @@ public class HomePage {
   public String getTitle() { return driver.getTitle(); }
   public boolean isLogoVisible() { return logo.isDisplayed(); }
   public int navCount() { return navLinks.size(); }
-  public boolean isBannerVisible() { return heroBanner.isDisplayed(); }
+  public boolean isBannerVisible() { 
+	  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	  WebElement banner = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".carousel-item img")));
+	  return banner.isDisplayed(); }
   public int footerCount() { return footerLinks.size(); }
 }
 

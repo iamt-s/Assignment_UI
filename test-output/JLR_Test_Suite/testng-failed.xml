@@ -7,7 +7,7 @@
         <methods>
           <include name="setUpClass"/>
           <include name="afterAll"/>
-          <include name="runScenario" invocation-numbers="0 1 2 3 4"/>
+          <include name="runScenario" invocation-numbers="1 3"/>
           <include name="tearDownClass"/>
           <include name="beforeAll"/>
         </methods>
