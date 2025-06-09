@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-09T00:27:14 IST" name="JLR_Test_Suite" finished-at="2025-06-09T00:27:39 IST" duration-ms="24369">
+  <suite started-at="2025-06-09T08:41:21 IST" name="JLR_Test_Suite" finished-at="2025-06-09T08:41:26 IST" duration-ms="4429">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@20d525]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-06-09T00:27:14 IST" name="HomepageTests" finished-at="2025-06-09T00:27:39 IST" duration-ms="24369">
+    <test started-at="2025-06-09T08:41:21 IST" name="HomepageTests" finished-at="2025-06-09T08:41:26 IST" duration-ms="4429">
       <class name="runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T00:27:14 IST" name="setUpClass" finished-at="2025-06-09T00:27:15 IST" duration-ms="659" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T08:41:21 IST" name="setUpClass" finished-at="2025-06-09T08:41:22 IST" duration-ms="363" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7808f638]]>
+                <![CDATA[org.testng.TestRunner@6009bea]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="beforeAll()[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T00:27:15 IST" name="beforeAll" finished-at="2025-06-09T00:27:15 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeAll()[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T08:41:22 IST" name="beforeAll" finished-at="2025-06-09T08:41:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeAll -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T00:27:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-09T00:27:28 IST" duration-ms="13193" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T08:41:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-09T08:41:25 IST" duration-ms="3669" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T00:27:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-09T00:27:28 IST" duration-ms="95" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T08:41:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-09T08:41:25 IST" duration-ms="30" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T00:27:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-09T00:27:28 IST" duration-ms="60" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T08:41:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-09T08:41:25 IST" duration-ms="44" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,7 +132,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T00:27:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-09T00:27:39 IST" duration-ms="10155" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T08:41:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-09T08:41:26 IST" duration-ms="196" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,34 +145,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: .carousel-item img (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60763}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60763/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a232072ec602e9ab29b91973ba42b0d9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .carousel-item img (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60763}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60763/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a232072ec602e9ab29b91973ba42b0d9
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at pages.HomePage.isBannerVisible(HomePage.java:30)
-at stepDefinitions.HomePageSteps.bannerVisible(HomePageSteps.java:48)
-at ✽.hero banner is displayed(file:///C:/Users/USER/Documents/JLR_UI_Assignment/src/test/resources/features/homePage.feature:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T00:27:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-09T00:27:39 IST" duration-ms="33" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T08:41:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-09T08:41:26 IST" duration-ms="19" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -188,11 +164,11 @@ at ✽.hero banner is displayed(file:///C:/Users/USER/Documents/JLR_UI_Assignmen
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="afterAll()[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T00:27:39 IST" name="afterAll" finished-at="2025-06-09T00:27:39 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="afterAll()[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T08:41:26 IST" name="afterAll" finished-at="2025-06-09T08:41:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAll -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T00:27:39 IST" name="tearDownClass" finished-at="2025-06-09T00:27:39 IST" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@20d525]" started-at="2025-06-09T08:41:26 IST" name="tearDownClass" finished-at="2025-06-09T08:41:26 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
